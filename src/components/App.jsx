@@ -4,7 +4,7 @@ import Home from './home/home';
 
 function App() {
   return (
-    <BrowserRouter basename='/Slimmom_frontend'>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
