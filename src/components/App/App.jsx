@@ -10,6 +10,7 @@ import { authOperations } from 'redux/auth';
 import { MediaContextProvider, useSetDocumentTitle } from 'hooks/ui';
 import { AppRouter } from './AppRouter';
 import '../../translation/i18n';
+
 const App = () => {
   const dispatch = useDispatch();
 
