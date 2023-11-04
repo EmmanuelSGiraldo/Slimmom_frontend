@@ -1,8 +1,8 @@
 {
-  "name": "Slimmom_fronted-",
+  "name": "Slimmom_fronted",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://emmanuelsgiraldo.github.io/Slimmom_backend-",
+  "homepage": "https://emmanuelsgiraldo.github.io/Slimmom_frontend",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -42,7 +42,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint --cache --fix src/**/*.{js,jsx}",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
