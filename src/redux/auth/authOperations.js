@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL = 'https://slimmom-back-end.cyclic.app/';
+axios.defaults.baseURL = 'https://slimmomapp-25362e5535d2.herokuapp.com/';
 
 const token = {
   set(token) {

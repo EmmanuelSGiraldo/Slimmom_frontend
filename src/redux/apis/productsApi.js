@@ -4,7 +4,7 @@ export const productsApi = baseApi.injectEndpoints({
   endpoints: build => ({
     getProducts: build.mutation({
       query: ({ title, limit }) => ({
-        url: `/products/`,
+        url: `api/products/`,
         method: 'GET',
         params: { title, limit },
       }),

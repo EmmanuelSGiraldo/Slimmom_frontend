@@ -4,7 +4,7 @@ export const diaryApi = baseApi.injectEndpoints({
   endpoints: build => ({
     getProductsByDate: build.query({
       query: date => ({
-        url: `/diary?date=${date}`,
+        url: `api/diary?date=${date}`,
         method: 'GET',
       }),
       providesTags: result => {
@@ -25,7 +25,7 @@ export const diaryApi = baseApi.injectEndpoints({
     }),
     addProduct: build.mutation({
       query: ({ date, id, weight }) => ({
-        url: '/diary/',
+        url: 'api/diary/',
         method: 'POST',
         body: { id, weight: Number(weight) },
         params: { date },
@@ -35,7 +35,7 @@ export const diaryApi = baseApi.injectEndpoints({
     deleteProductFromDate: build.mutation({
       query: ({ currentDate, productId }) => {
         return {
-          url: `/diary?date=${currentDate}&productId=${productId}`,
+          url: `api/diary?date=${currentDate}&productId=${productId}`,
           method: 'DELETE',
         };
       },
