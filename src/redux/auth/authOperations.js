@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL = 'https://slimmomapp-25362e5535d2.herokuapp.com/';
+axios.defaults.baseURL = 'https://slimmomproject-9fa42efd6035.herokuapp.com/';
 
 const token = {
   set(token) {

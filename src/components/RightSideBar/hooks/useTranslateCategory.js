@@ -5,44 +5,44 @@ export const useTranslateCategory = () => {
 
   const translateCategory = item => {
     switch (item) {
-      case 'яйца':
-        return t('eggs');
-      case 'зерновые':
-        return t('crops');
-      case 'мучные':
-        return t('flour');
-      case 'молочные':
-        return t('dairy');
-      case 'рыба':
-        return t('fish');
-      case 'мясо':
-        return t('meat');
-      case 'ягоды':
-        return t('berries');
-      case 'колбаса':
-        return t('sausage');
-      case 'масла и жиры':
-        return t('oils');
-      case 'фрукты':
-        return t('fruit');
-      case 'грибы':
-        return t('mushrooms');
-      case 'овощи и зелень':
-        return t('vegetables');
-      case 'орехи':
-        return t('nuts');
-      case 'семена':
-        return t('seeds');
-      case 'сухофрукты':
-        return t('driedFruits');
-      case 'алкогольные напитки':
-        return t('alcoholic');
-      case 'безалкогольные напитки':
-        return t('nonAlcoholic');
-      case 'мак':
-        return t('poppy');
-      case 'кунжут':
-        return t('sesame');
+      case 'huevos':
+        return t('huevos');
+      case 'cereales':
+        return t('cereales');
+      case 'harina':
+        return t('harina');
+      case 'lácteos':
+        return t('lácteos');
+      case 'pez':
+        return t('pez');
+      case 'carne':
+        return t('carne');
+      case 'bayas':
+        return t('bayas');
+      case 'salchicha':
+        return t('salchicha');
+      case 'aceites':
+        return t('aceites');
+      case 'fruta':
+        return t('fruta');
+      case 'hongos':
+        return t('hongos');
+      case 'verduras y hortalizas':
+        return t('verduras y hortalizas');
+      case 'nueces':
+        return t('nueces');
+      case 'semillas':
+        return t('semillas');
+      case 'frutos secos':
+        return t('frutos secos');
+      case 'bebidas alcohólicas':
+        return t('bebidas alcohólicas');
+      case 'refrescos':
+        return t('refrescos');
+      case 'amapola':
+        return t('amapola');
+      case 'sésamo':
+        return t('sésamo');
       default:
         break;
     }
@@ -50,3 +50,12 @@ export const useTranslateCategory = () => {
 
   return { translateCategory };
 };
+  
+       
+       
+     
+      
+       
+    
+    
+ 

@@ -9,7 +9,8 @@ import { getIsLoggedIn } from 'redux/auth/authSelector';
 import { setCurrentLang, selectActiveLang } from 'redux/slices';
 import { useEffect } from 'react';
 import { FlagUS } from './Flags/FlagUS';
-import { FlagUA } from './Flags/FlagUA';
+import "./lenguaje.css"
+// import { FlagUA } from './Flags/FlagUA';
 
 export const Languages = () => {
   const { i18n } = useTranslation();
@@ -57,13 +58,9 @@ export const Languages = () => {
           onChange={handleChange}
           variant="outlined"
         >
-          <MenuItem value={'en'}>
+         <div className="flagUS"> <MenuItem value={'en'}>
             <FlagUS />
-          </MenuItem>
-
-          <MenuItem value={'ua'}>
-            <FlagUA />
-          </MenuItem>
+          </MenuItem></div>
         </StyledSelect>
       </StyledForm>
     </div>
