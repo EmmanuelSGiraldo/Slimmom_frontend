@@ -1,3 +1,44 @@
+
+                                    hola somo el grupo 1 - Proyecto final Slimmom
+
+![emmanuel](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/054b9b00-a1cb-49d0-90ec-08307a271369) Emmanuel Giraldo
+https://github.com/EmmanuelSGiraldo - TEAM LEAD -DEV
+backend
+
+![ana](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/091c62e5-0055-4731-87b8-99afe0951fc6) Ana Pereira
+https://github.com/anapereirar - DEV
+frontend
+Calculator Page + Diary Page  + Alert Modal (Hook = EscKeyDown)
+
+![edinson](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/d2146bcc-16c4-4922-92eb-697d0bb23959) Edinson Restrepo
+https://github.com/EdiRestrepo - SCRUM MASTER - DEV
+backend
+
+![jesus cordero](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/2aac8e2b-6e94-4498-82b0-bc0f23f4ab28) Jesus Cordero
+https://github.com/FS-JesusC - DEV
+frontend
+Desarrollo del Main Page +  layout + translation + packet.json +  hooks( Usemobilemodal ,  use media)
+
+![karoll-](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/814190c3-bc39-4be9-8afd-c09dc32979f3) Karoll Martin
+https://github.com/Karoll94 - DEV
+frontend
+Desarrollo del login page + registration page + spinner + Model (add product schema)
+
+![steven](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/38aa28c8-e5d4-470d-87c4-91ade5ea9ca4) Steven Marin
+https://github.com/DeveloperStevenMarin - DEV
+backend
+
+![sergio](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/cccd4446-6d9f-44cf-8c3f-fb5c8cd697b4)
+https://github.com/sergioing1000 - DEV
+backend
+
+![perfil img](https://github.com/EmmanuelSGiraldo/Slimmom_frontend/assets/115516045/af7902ef-eccb-44c8-a096-5a48efc4e3a6) Luis Quintero
+https://github.com/luisQuintero32 - DEV
+frontend
+Desarrollo livesearch + mobilmodal + modal + pagetitle
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
